@@ -122,4 +122,28 @@ footer {
   footer nav a:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+  header, footer {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  nav {
+    /* Adjust navigation for smaller screens */
+    margin-top: 1rem;
+    font-size: 14px; /* Smaller font size */
+  }
+
+  .logo {
+    width: 70px; /* Smaller logo for mobile */
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  nav {
+    font-size: 12px; /*smaller font size */
+  }
+}
 </style>
